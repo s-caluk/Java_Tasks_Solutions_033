@@ -3,6 +3,44 @@ package day04_selection_statements;
 public class ChooseLanguage {
     public static void main(String[] args) {
 
+        int number = 3;
+
+        switch (number){
+            case 1:
+                System.out.println("Hello, thank you for your call");
+                break;
+            case 2:
+                System.out.println("ola, gracias por llamar");
+                break;
+            case 3:
+                System.out.println("Merhaba, aradığınız için teşekkürler");
+                break;
+            case 4:
+                System.out.println("Привет, спасибо за ваш звонок");
+                break;
+            case 5:
+                System.out.println("Merci, pour votre appel");
+                break;
+            default:
+                System.out.println("invalid number");
+        }
+        System.out.println("--------------------------------");
+
+        int number2 = 1;
+
+        if(number2 == 1){
+            System.out.println("Hello, thank you for your call");
+        } else if (number2 == 2) {
+            System.out.println("Hola, gracias por llamar");
+        }else if (number2 == 3) {
+            System.out.println("Merhaba, aradığınız için teşekkürler");
+        }else if (number2 == 4) {
+            System.out.println("Привет, спасибо за ваш звонок");
+        }else{
+            System.out.println("Merci, pour votre appel");
+        }
+
+
     }
 }
 /*
